@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // 1 Numbers 
+        const number1 = 3/0;
+    console.log(number1); // Infinity
+
+    const number2 = -3/0;
+    console.log(number2); // -Infinity
+
+// strings can't be divided by numbers
+const number3 = "abc"/3; 
+console.log(number3);  // NaN
+
+
+// Bigint 
+// BigInt value
+const value1 = 900719925124740998n;
+
+// Adding two big integers
+const result1 = value1 + 1n;
+console.log(result1); // "900719925124740999n"
+
+const value2 = 900719925124740998n;
+
+// Error! BitInt and number cannot be added
+const result2 = value2 + 1; 
+console.log(result2); 
+
+
+// Boolean 
+const dataChecked = true;
+const valueCounted = false;
+
+
+    // undefined
+    let name;
+console.log(name); // undefined
+
+        // null
+        const number = null;
+
+        // symvbol
+        // two symbols with the same description
+
+const value1 = Symbol('hello');
+const value2 = Symbol('hello');
+
+
+// object 
+const student = {
+    firstName: 'ram',
+    lastName: null,
+    class: 10
+};
+
+
+// TypeOf 
+const name = 'ram';
+typeof(name); // returns "string"
+
+const number = 4;
+typeof(number); //returns "number"
+
+const valueChecked = true;
+typeof(valueChecked); //returns "boolean"
+
+const a = null;
+typeof(a); // returns "object"
+
+    </script>
+</body>
+</html>
